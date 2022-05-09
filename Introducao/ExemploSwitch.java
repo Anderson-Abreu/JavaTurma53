@@ -16,8 +16,8 @@ public class ExemploSwitch {
 		System.out.println("\nDigite o segundo numero");
 		n2=ler.nextDouble();
 		
-		System.out.println("\nDigite:1-soma2-subtração");
-		System.out.println("3-multiplicação4-divisão");
+		System.out.println("\nDigite:\n1-soma\n2-subtração");
+		System.out.println("3-multiplicação\n4-divisão");
 		opcao=ler.nextInt();
 		
 		switch (opcao) {
