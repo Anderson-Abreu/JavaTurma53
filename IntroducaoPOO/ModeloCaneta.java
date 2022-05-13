@@ -3,8 +3,8 @@ package IntroducaoPOO;
 public class ModeloCaneta {
 	
 	//CARACTERISTICAS -> ATRIBUTOS
-	public String cor;
-	public double ponta;
+	private String cor;
+	private double ponta;
 	private int carga;
 	private boolean tampada;
 	
@@ -26,6 +26,32 @@ public class ModeloCaneta {
 			System.out.println("Escrevendo...");
 	}
 	
+	//METODOS ACESSORES(gets) e MODIFICADORES(sets)	
+	
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public double getPonta() {
+		return ponta;
+	}
+
+	public void setPonta(double ponta) {
+		this.ponta = ponta;
+	}
+
+	public int getCarga() {
+		return carga;
+	}
+
+	public void setCarga(int carga) {
+		this.carga = carga;
+	}
+
 	public void tampar()
 	{
 		this.tampada=true;
